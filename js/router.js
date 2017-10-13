@@ -213,11 +213,11 @@ $(document).ready(
                 stopAllNodePollers();
                 visualRoute.init();
             }
-            /*,
+            ,
              defaultRoute:function () {
              stopAllNodePollers();
              console.log('defaultRoute');
-             }*/
+             }
         });
 
         Backbone.history.start();
